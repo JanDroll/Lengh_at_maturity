@@ -49,6 +49,4 @@ seg_plot <- ggplot() +
   annotate("text", x = 340, y = .38, label = "Estimated length\n at maturation\n = 294.4 mm", col = "#FC1D00", hjust = 0, size = 4.5) +
   labs(size = expression(Delta*"t"~"(Days)"), x = "Total length (mm) at capture", y = "Slope") +
   theme(legend.position = c(.09, .18),
-        legend.background = element_rect(linetype = "solid", color = "grey70"))
-
-                                  etype = "solid", color = "grey70"))
+        legend.background = element_rect(linetype = "solid", color = "grey70")) "solid", color = "grey70"))
